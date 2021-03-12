@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: lambdal337sns
+---
+telegram:
+  bots:
+    l337:
+      token: '${TOKEN}'
+      at-username: '@L337DroidBot'
+notification:
+  chat-id: '${CHAT_ID}'
